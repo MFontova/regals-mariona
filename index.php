@@ -6,12 +6,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="src/ixf.png">
     <title>Regalitos</title>
 </head>
 <body style="color:#333">
     <div class="px-4 pt-5 mt-5 text-center vh-100">
         <img class="d-block mx-auto mb-4" src="src/regalito.png" alt="" height="150">
-        <h1 class="display-5 fw-bold">Els regalitos de la Ixufs</h1>
+        <h1 class="display-5 fw-bold">Els regalets de la Ixufs</h1>
         <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">Ixurrinilla! Espero que els regals materials t'hagin agradat. Aquí descobrirás les experiències que el teu ixurrinillo et vol regalar, però per aconseguir-les, hauràs de superar algunes proves :)</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -32,7 +33,7 @@
                             <i class="bi bi-fire" style="font-size: 50px; color: #333"></i>
                             <h3 class="card-title">Experiència 1</h3>
                             <p class="card-text">La primera experiència ens farà cometre un pecat capital, però tindrem la panxa contenta.</p>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalExp1">Vull saber més</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalExp1">De cap!</a>
                         </div>
                     </div>
                 </div>
@@ -42,7 +43,7 @@
                             <i class="bi bi-ticket-perforated" style="font-size: 50px; color: #333"></i>
                             <h3 class="card-title">Experiència 2</h3>
                             <p class="card-text">La segona experiència ens farà moure molts músculs, però sense aixecar-nos de la butaca.</p>
-                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalExp2">Vull saber més</a>
+                            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalExp2">Tinc curiositat</a>
                         </div>
                     </div>
                 </div>
@@ -50,24 +51,8 @@
         </div>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="modalNormes" tabindex="-1" aria-labelledby="modalNormesLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-            <div class="modal-header">
-                <h1 class="modal-title fs-5" id="modalNormesLabel">Normes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Hi ha dos experiències pels ixufs, però hauràs de passar una prova per aconseguir cada experiència.</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Vali!</button>
-            </div>
-            </div>
-        </div>
-    </div>
-
+    <!-- Modals -->
+    
     <div class="modal fade" id="modalExp1" tabindex="-1" aria-labelledby="modalExp1Label" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -80,19 +65,19 @@
                     <p>M'estic menjant un entrepà d'Heura del Pans i com que m'agrada molt me'l vull fer durar. L'entrepà medeix 28cm i cada dia menjo la meitat del que tinc. Quants dies trigaré a menjar-me el bocata sencer?</p>
                     <form action="experiencia1.php" method="GET" class="form">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault1" value="14">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault1" value="14" required>
                             <label class="form-check-label" for="flexRadioDefault1">
                                 14 dies
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault2" value="28">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault2" value="28" required>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 28 dies
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault3" value="0">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault3" value="0" required>
                             <label class="form-check-label" for="flexRadioDefault3">
                                 No me l'acabaré mai
                             </label>
@@ -114,22 +99,22 @@
                 <div class="modal-body">
                     <h3>Enigma a resoldre: </h3>
                     <p>Com segueix la següent cançó?</p>
-                    <p><em>Qui és la més millor del món? ...</em></p>
+                    <p><i class="bi bi-music-note-beamed"></i><em> Qui és la més millor del món? ...</em></p>
                     <form action="experiencia2.php" method="GET" class="form">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault12" value="0">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault12" value="0" required>
                             <label class="form-check-label" for="flexRadioDefault12">
                                 És la ixurrina!
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault22" value="1">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault22" value="1" required>
                             <label class="form-check-label" for="flexRadioDefault22">
                                 És la mandarina!
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault32" value="2">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault32" value="2" required>
                             <label class="form-check-label" for="flexRadioDefault32">
                                 És la carxofilla!
                             </label>
@@ -139,6 +124,11 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="pt-4">
+        <p class="text-center">From <b>Ixurrino</b> to <b>Ixurrina</b></p>
+        <p class="text-center"><i class="bi bi-heart-fill" style="color:red"></i> <b>With love</b> <i class="bi bi-heart-fill" style="color:red"></i></p>
     </div>
 </body>
 </html>

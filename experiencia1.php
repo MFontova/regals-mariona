@@ -6,6 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/x-icon" href="src/ixf.png">
     <title>Experiencia 1</title>
 </head>
 <body>
@@ -39,7 +40,7 @@
                     <h4 class="alert-heading">Genial!</h4>
                     <p>Vaya jefasa la Ixus</p>
                     <p>L'has clavat amor! Ja pots descarregar-te el teu regal: </p>
-                    <a class="btn btn-secondary" href="src/regalito.png" download><i class="bi bi-download"></i> Descarregar regal</a>
+                    <a class="btn btn-secondary" href="regals/sopar.jpg" download><i class="bi bi-download"></i> Descarregar regal</a>
                     <hr>
                     <a style="cursor:pointer" onclick="history.back()"><b><i class="bi bi-arrow-left-short"></i>Torna enrera per seguir amb l'altra prova<b></a>
                 </div>
@@ -49,5 +50,6 @@
     
     ?>
     </div>
+    
 </body>
 </html>
