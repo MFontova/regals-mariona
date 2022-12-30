@@ -92,8 +92,8 @@
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault2" value="0">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault3" value="0">
+                            <label class="form-check-label" for="flexRadioDefault3">
                                 No me l'acabaré mai
                             </label>
                         </div>
@@ -117,20 +117,20 @@
                     <p><em>Qui és la més millor del món? ...</em></p>
                     <form action="experiencia2.php" method="GET" class="form">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault1" value="0">
-                            <label class="form-check-label" for="flexRadioDefault1">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault12" value="0">
+                            <label class="form-check-label" for="flexRadioDefault12">
                                 És la ixurrina!
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault2" value="1">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault22" value="1">
+                            <label class="form-check-label" for="flexRadioDefault22">
                                 És la mandarina!
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault2" value="2">
-                            <label class="form-check-label" for="flexRadioDefault2">
+                            <input class="form-check-input" type="radio" name="solution" id="flexRadioDefault32" value="2">
+                            <label class="form-check-label" for="flexRadioDefault32">
                                 És la carxofilla!
                             </label>
                         </div>

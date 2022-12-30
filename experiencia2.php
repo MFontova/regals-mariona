@@ -13,7 +13,7 @@
         <?php
 
         if(isset($_GET['solution'])){
-            if($_GET['solution'] == 14) {
+            if($_GET['solution'] == 1) {
                 ?>
                 <div class="alert alert-danger" role="alert">
                     <h4 class="alert-heading">Error!</h4>
@@ -23,7 +23,7 @@
                     <a style="cursor:pointer" onclick="history.back()"><b><i class="bi bi-arrow-left-short"></i>Torna enrera per tornar-ho a intentar<b></a>
                 </div>
                 <?php
-        }elseif($_GET['solution'] == 28) {
+        }elseif($_GET['solution'] == 2) {
             ?>
                 <div class="alert alert-danger" role="alert">
                     <h4 class="alert-heading">Error!</h4>
